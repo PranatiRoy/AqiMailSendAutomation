@@ -36,7 +36,7 @@ def send_email(subject,msg):
 	server.login('Enter gmail id','Enter Password')
 	print(3)
 	messege='Subject:{}\n\n{}'.format(subject,msg)
-	server.sendmail('pranatimaitypm@gmail.com','roy.pranatimaiti@gmail.com',messege)
+	server.sendmail('sender mail id','receiving end mail id',messege)
 	print(4)
 	server.quit()
 	print('Success:Email Sent')
