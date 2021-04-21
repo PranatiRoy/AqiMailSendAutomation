@@ -33,7 +33,7 @@ def send_email(subject,msg):
 	print(1)
 	server.starttls()
 	print(2)
-	server.login('pranatimaitypm@gmail.com','7278951622')
+	server.login('Enter gmail id','Enter Password')
 	print(3)
 	messege='Subject:{}\n\n{}'.format(subject,msg)
 	server.sendmail('pranatimaitypm@gmail.com','roy.pranatimaiti@gmail.com',messege)
